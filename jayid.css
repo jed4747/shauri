@@ -1,0 +1,27 @@
+body {
+    background-color: #ea0eb3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  .container {
+    background: #fa0202;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #aaa;
+    animation: fadeIn 2s ease-in;
+  }
+  h1 {
+    color: #060605;
+    font-size: 2.5em;
+  }
+  p {
+    color: #0b0b0b;
+    font-size: 1.2em;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+    
